@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.wz.citiesapi.dto.CountryDTO;
 import com.wz.citiesapi.entities.Country;
-import com.wz.citiesapi.entities.CountryRepository;
+import com.wz.citiesapi.repositories.CountryRepository;
 import com.wz.citiesapi.resources.ResourseNotFoundException;
 
 @Service
